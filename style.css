@@ -1,0 +1,197 @@
+
+
+
+header{
+    width:180px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0015FF;
+    height:200%;
+}
+h1{
+    color: #FBFF00;
+}
+h3{
+    white-space: pre;
+}
+.frimärke{
+width:100px;
+height:100px;
+}
+main{
+    margin:30px;
+    text-align: center;
+}
+
+button{
+    width: 90px;
+    height:50px;
+    background-color:#D9D9D9;
+    color: black;
+    font-size: large;
+}
+@media screen and (min-width:1023px){
+    .logga1{
+        width:250px;
+    }
+    .logga2{
+        visibility: hidden;
+        height:50px;
+        width:1000px;
+
+    }
+    .logga3{
+        visibility: hidden;    
+    }
+    footer{
+        visibility: hidden;
+    }
+    body{
+        display:grid;
+        grid-template-columns: 1fr 0fr 2fr;
+        grid-template-rows:20vh 60vh 20vh;
+        background-color:#D9D9D9;
+    }
+    #produkt{
+        display:grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        padding:10px;
+        align-items: center;
+        }
+        header{
+            display:flex;
+            height:1000px;
+            flex-direction: column;
+            text-align: center;
+            background-color: #0015FF;
+        }
+        #betalning{
+            text-align: center;
+            display:grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+        }
+}
+@media screen and (min-width:767px) and (max-width:1023px){
+    .logga1{
+        visibility: hidden;
+    }
+    .logga2{
+        width:250px;
+    }
+    .logga3{
+        visibility: hidden;
+    }
+    footer{
+        visibility: hidden;
+    }
+    .info{
+        visibility:hidden;
+        height: 0px;
+    }
+    body{
+        display:grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows:100vh;
+        background-color:#D9D9D9;
+    }
+    header{
+        display:flex;
+        height:100%;
+        flex-direction: column;
+        text-align: center;
+        background-color: #0015FF;
+    }
+    #produkt{
+        display:column;
+        height:300px;
+        flex-direction: row;
+        align-items: center;
+        }
+
+    #produkter{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh 40vh 20vh 20vh;
+}
+#betalning{
+    text-align: center;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+}
+@media screen and (max-width: 767px) {
+    .logga1{
+        visibility: hidden;
+        height:0px;
+    }
+    .logga2{
+        visibility: hidden;
+    }
+    .logga3{
+        width:250px;
+    }
+    body{
+        text-align: left;
+        display:grid;
+        grid-template-rows:20vh 200vh 20vh;
+        background-color:#D9D9D9;
+    }
+    .info{
+        visibility:hidden;
+        height: 0px;
+        width: 0px;
+    }
+    footer{
+        background-color: #0015FF;
+    }
+    #produkt{
+        display:grid;
+        
+        align-items:left;
+        }
+        header{
+            
+            background-color: #0015FF;
+            text-align: center;
+            width:100vw;
+            height:100px;
+        }
+        #produkter{
+            width:400px;
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 40vh 40vh 20vh 20vh;
+        }
+        main{
+            text-align:left;
+        }
+
+        #betalning{
+            text-align: center;
+            display:grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            width:400px;
+        }
+        h3{
+            font-size:30px;
+        }
+        h4{
+            font-size:40px;
+        }
+        button{
+            width: 120px;
+            height:70px;
+            background-color:#D9D9D9;
+            color: black;
+            font-size: 30px;
+        }
+}
+#betala{
+    padding:10px 20px;
+    width: 90px;
+    height:50px;
+    background-color: #0015FF;
+    color: #FBFF00;
+    font-size: large;
+}
