@@ -4,8 +4,8 @@ const nyckel2 = "EnLocalStorageVarukorgFörDigSomAnvänderDetHär2"
 
 
 
-let varor = ["KungCarlGustaf ","Wisby ","Fem kronor ","8 Öre "];
-let pris = [22,255,3014,691];
+let varor = ["KungCarlGustaf ","Wisby ","Fem kronor ","8 Öre ","Brev Sverige ","Banco "];
+let pris = [40,255,3014,691,22,1500000];
 let vara = "";
 let varorantal = 0;
 let köplista = [];
